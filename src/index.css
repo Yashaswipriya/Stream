@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* show scrollbar on hover */
+  .sidebar:hover::-webkit-scrollbar-thumb {
+    background-color: #4b5563; /* Tailwind's gray-600 */
+  }
+  
+  .sidebar::-webkit-scrollbar {
+    width: 6px;
+  }
